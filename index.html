@@ -1,0 +1,53 @@
+<html lang="pt-br"></html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tela de Login</title>
+
+        <style>
+            form {
+                text-align: center;
+            }
+
+            p {
+                margin: 10px 0;
+            }
+
+            body {
+                background: beige;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 16px;
+            }
+
+            h1 {
+                color: #333;
+                font-size: 24px;
+            }
+
+            button {
+                background-color: #4CAF50; /*verde*/
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Login</h1>
+        <form>
+            <label form="nomeUsuario">Usuário:</label>
+            <input name="nomeUsuario" type="text" required><br><br>
+
+            <label form="senhaUsuario">Senha:</label>
+            <input name="senhaUsuario" type="password" required><br><br>
+
+            <input name="logadoUsuario" type="checkbox" value="sim">
+            <label form="logadoUsuario">Manter Logado</label><br>
+
+            <p><button type="submit">Login</button></p>
+            <p><a href="#URL">Ainda não tem conta?</a></p>
+            <p><a href="#URL">Esqueceu a senha?</a></p>
+        </form>
+    </body>
+</html>
